@@ -15,5 +15,8 @@ public class Products {
     public void removeProducts(int quantity){
         this.quantity -= quantity;
     }
+    public String toString(){
+        return name;
+    }
 }
 

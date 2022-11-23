@@ -23,7 +23,11 @@ public class Program {
         System.out.print("Quantity in Stock: ");
         products.quantity = sc.nextInt();
 
-        System.out.println(products.name + " , " + products.price + " , " + products.quantity  );
+
+
+        System.out.println(products.toString());
+
+
 
         sc.close();
     }
