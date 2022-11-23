@@ -25,7 +25,7 @@ public class Program {
 
 
 
-        System.out.println(products.toString());
+        System.out.println(products);
 
 
 
