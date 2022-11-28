@@ -17,7 +17,7 @@ public class Products {
     }
     public String toString(){
         return name
-                + " , $"
+                + " , $ "
                 + price
                 + " , "
                 + quantity
