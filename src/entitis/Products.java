@@ -16,7 +16,13 @@ public class Products {
         this.quantity -= quantity;
     }
     public String toString(){
-        return name;
+        return name
+                + " , $"
+                + price
+                + " , "
+                + quantity
+                + " units, total: $ "
+                + totalValueInStock();
     }
 }
 
